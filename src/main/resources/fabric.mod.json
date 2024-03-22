@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "clr-mod",
+  "version": "${version}",
+
+  "name": "CLR-MOD",
+  "description": "First MOD",
+  "authors": [],
+  "contact": {},
+
+  "license": "Apache-2.0",
+  "icon": "assets/clr-mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+      "mixins": [
+        "clr-mod.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
